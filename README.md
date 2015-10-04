@@ -37,11 +37,23 @@ Minimax can be used to model games. The algorithm will find the best move recurs
 
 Data compression - a must
 
+## Map Reduce
+
+MapReduce processes large datasets in a distributed manner. Map sorts data in different batches according to a criteria, while reduce will perform an operation in each batch.
+
+MapReduce implemented in python with use case of machine learning
+
 ## Metropolis
 
 A haskell implementation of the metropolis algorithm aka Monte Carlo method
 
 Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
+
+Input
+
+`Json data`
+
+
 
 ## Fast Multipole algorithm
 
