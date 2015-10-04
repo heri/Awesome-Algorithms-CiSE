@@ -1,4 +1,4 @@
--- a python implementation of the metropolis algorithm aka Monte Carlo method
+-- a haskell implementation of the metropolis algorithm aka Monte Carlo method
 
 module Metropolis (metroStep) where
 
