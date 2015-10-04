@@ -6,15 +6,24 @@ A collection of elegant algorithms in various languages (ruby, python, haskell)
 
 A haskell implementation of the metropolis algorithm aka Monte Carlo method
 
+Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
+
 ## Fast Fourier Transform
 
 An implementation of the Discrete Fourier Transform.
+
+Original authors: James Cooley of the IBM T.J. Watson Research Center and John Tukey of Princeton
+University and AT&T Bell Laboratories
 
 ## Fast Multipole algorithm
 
 A python implemention of the Fast Multipole algorithm
 
+Original authors: Leslie Greengard and Vladimir Rokhlin of Yale University
+
 ## QR Algorithm
+
+Original author: J.G.F. Francis of Ferranti Ltd., London
 
 Input:
 ```
@@ -43,6 +52,8 @@ rint v
 
 A python implementation of the Householder reflection approach for matrix computations
 
+Original author: Alston Householder of Oak Ridge National Laboratory 
+
 Input:
 ```
 a = np.array([
@@ -60,10 +71,13 @@ c = np.array([
     [-1.42048733, 0.49859105, -1.],
     [-0.38289289, -0.36757717, -1.]])
 ```
+Compute:
+```
+q, r = qr_fact_householder(a)
+```
 
 Output:
 ```
-q, r = qr_fact_householder(a)
 aa, bb = qr(a)
 print np.dot(aa, bb)
 print np.dot(q, r)
@@ -74,7 +88,7 @@ print np.dot(q, r)
 
 recursive sorting with high-speed high space complexity approach
 
-# REF
+# References
 * https://projecteuler.net/
 * http://www.stoimen.com/blog/
 * https://www.codingame.com/
