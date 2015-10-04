@@ -9,22 +9,43 @@ A collection of elegant algorithms in various languages (ruby, python, haskell)
 * human-readable
 * works & efficient
 
+## Quicksort
+
+Recursive sorting with high-speed high space complexity approach. Makes you appreciate programming
+
+Original author: Tony Hoare of Elliott Brothers, Ltd., London
+
+## Fast Fourier Transform
+
+An implementation of the Discrete Fourier Transform.  The FFT is an extremely important and widely-used method of extracting useful information from sampled signals.
+
+Original authors: James Cooley of the IBM T.J. Watson Research Center and John Tukey of Princeton
+University and AT&T Bell Laboratories
+
+## Dijkstra
+
+Dijkstra's algorithm determines the length from start to every other vertex in the graph.
+
+The algorithm exist in every router in the world, for identifying the best route between two nodes in a network.
+
+
+## Minimax
+
+Minimax can be used to model games. The algorithm will find the best move recursively, knowing the rules and the environmen (aka board). Popular media will call the computer "intelligent" however it is just a matter of the algorithm computing enough moves ahead the human player. No machine learning, no deep learning, no random moves or approximation. Juste brute force.
+
+## LZW
+
+Data compression - a must
+
 ## Metropolis
 
 A haskell implementation of the metropolis algorithm aka Monte Carlo method
 
 Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
 
-## Fast Fourier Transform
-
-An implementation of the Discrete Fourier Transform.
-
-Original authors: James Cooley of the IBM T.J. Watson Research Center and John Tukey of Princeton
-University and AT&T Bell Laboratories
-
 ## Fast Multipole algorithm
 
-A python implemention of the Fast Multipole algorithm
+A python implemention of the Fast Multipole algorithm.
 
 Original authors: Leslie Greengard and Vladimir Rokhlin of Yale University
 
@@ -90,24 +111,15 @@ print np.dot(aa, bb)
 print np.dot(q, r)
 ```
 
-
-## Quicksort
-
-recursive sorting with high-speed high space complexity approach
-
-Original author: Tony Hoare of Elliott Brothers, Ltd., London
-
 ## Simplex
 
 Implementation case: maximize c.x with constraint A.x = b
 
 Original author: George Dantzig, at the RAND Corporation
 
-## Dijkstra
+## Concise
 
-Dijkstra's algorithm determines the length from start to every other vertex in the graph.
-
-## p5
+### p5
 
 Graphics in 140 characters (view [p5tweets](http://funprogramming.org/p5tweets/) )
 
@@ -119,13 +131,19 @@ Output:
 
 ![p5](http://funprogramming.org/p5tweets/large/32.jpg)
 
-## superCollider
+### superCollider
 
 By Nathaniel Virgo with [Supercollider](https://github.com/supercollider/supercollider)
 
 ```
 {LocalOut.ar(a=CombN.ar(BPF.ar(LocalIn.ar(2)*7.5+Saw.ar([32,33],0.2),2**LFNoise0.kr(4/3,4)*300,0.1).distort,2,2,40));a}.play/
 ```
+
+## Art
+
+## Sleep Sort
+
+An elegant, if expensive, algorithm to sort a series of number. Will print the n number after n seconds
 
 
 # References
