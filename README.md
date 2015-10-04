@@ -2,6 +2,13 @@
 
 A collection of elegant algorithms in various languages (ruby, python, haskell)
 
+## Criterias
+
+* beautiful
+* timeless
+* human-readable
+* works & efficient
+
 ## Metropolis
 
 A haskell implementation of the metropolis algorithm aka Monte Carlo method
@@ -96,6 +103,10 @@ Implementation case: maximize c.x with constraint A.x = b
 
 Original author: George Dantzig, at the RAND Corporation
 
+## Dijkstra
+
+Dijkstra's algorithm determines the length from start to every other vertex in the graph.
+
 ## p5
 
 Graphics in 140 characters (view [p5tweets](http://funprogramming.org/p5tweets/) )
@@ -107,6 +118,14 @@ int i,w=900;void setup(){size(w,w);}void draw(){fill(0,4);stroke(255,87);bezier(
 Output:
 
 ![p5](http://funprogramming.org/p5tweets/large/32.jpg)
+
+## superCollider
+
+By Nathaniel Virgo with [Supercollider](https://github.com/supercollider/supercollider)
+
+```
+{LocalOut.ar(a=CombN.ar(BPF.ar(LocalIn.ar(2)*7.5+Saw.ar([32,33],0.2),2**LFNoise0.kr(4/3,4)*300,0.1).distort,2,2,40));a}.play/
+```
 
 
 # References
