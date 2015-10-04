@@ -11,49 +11,49 @@ A collection of elegant algorithms in various languages (ruby, python, haskell)
 
 ## Quicksort
 
-Recursive sorting with high-speed high space complexity approach. Makes you appreciate programming
+[Recursive sorting](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/quicksort.rb) with high-speed high space complexity approach. It's the posterchild of computer science algorithms!
 
 Original author: Tony Hoare of Elliott Brothers, Ltd., London
 
 ## Fast Fourier Transform
 
-An implementation of the Discrete Fourier Transform.  The FFT is an extremely important and widely-used method of extracting useful information from sampled signals.
+An [implementation of the Discrete Fourier Transform](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/fft.rb).  The FFT is an extremely important and widely-used method of extracting useful information from sampled signals.
 
 Original authors: James Cooley of the IBM T.J. Watson Research Center and John Tukey of Princeton
 University and AT&T Bell Laboratories
 
 ## Dijkstra
 
-Dijkstra's algorithm determines the length from start to every other vertex in the graph.
+[Dijkstra's algorithm](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/dijkstra.py) determines the length from start to every other vertex in the graph.
 
 The algorithm exist in every router in the world, for identifying the best route between two nodes in a network.
 
 
 ## Minimax
 
-Minimax can be used to model games. The algorithm will find the best move recursively, knowing the rules and the environmen (aka board). Popular media will call the computer "intelligent" however it is just a matter of the algorithm computing enough moves ahead the human player. No machine learning, no deep learning, no random moves or approximation. Juste brute force.
+[Minimax](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/minimax.rb) can be used to model games. The algorithm will find the best move recursively, knowing the rules and the environmen (aka board). Popular media will call the computer "intelligent" however it is just a matter of the algorithm computing enough moves ahead the human player. No machine learning, no deep learning, no random moves or approximation. Juste brute force.
+
+By extension, minimax could model video games, trading, and more if the rules are set, followed by the players and the environment is set.
 
 ## LZW
 
-Data compression - a must
+[LZW Data compression algorith](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/lzw.py) - a must
 
 ## Map Reduce
 
-MapReduce processes large datasets in a distributed manner. Map sorts data in different batches according to a criteria, while reduce will perform an operation in each batch.
+[MapReduce](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/mapreduce_machine_learning.py) processes large datasets in a distributed manner. Map sorts data in different batches according to a criteria, while reduce will perform an operation in each batch.
 
 MapReduce implemented in python with use case of machine learning
-
-## Metropolis
-
-A haskell implementation of the metropolis algorithm aka Monte Carlo method
-
-Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
 
 Input
 
 `Json data`
 
+## Metropolis
 
+[A haskell implementation](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/Metropolis.hs) of the metropolis algorithm aka Monte Carlo method
+
+Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
 
 ## Fast Multipole algorithm
 
@@ -62,6 +62,8 @@ A python implemention of the Fast Multipole algorithm.
 Original authors: Leslie Greengard and Vladimir Rokhlin of Yale University
 
 ## QR Algorithm
+
+[A python implemention](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/qr.py) of the QR algorithm. It turns once-formidable [eigenvalue problems](http://planetmath.org/eigenvalueproblem) into routine calculations.
 
 Original author: J.G.F. Francis of Ferranti Ltd., London
 
@@ -90,7 +92,7 @@ rint v
 
 ## Householder
 
-A python implementation of the Householder reflection approach for matrix computations
+A [python implementation of the Householder reflection](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/householder.py) approach for matrix computations
 
 Original author: Alston Householder of Oak Ridge National Laboratory
 
@@ -125,7 +127,9 @@ print np.dot(q, r)
 
 ## Simplex
 
-Implementation case: maximize c.x with constraint A.x = b
+[Simplex algorithm](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/simplex.hs) for linear optimization. Supposing problems (economics, business, industry) can be linearized, the Simplex algorithm is an efficient algorithm to find the optimal solution within constrains.
+
+tldr; maximize c.x with constraint A.x = b
 
 Original author: George Dantzig, at the RAND Corporation
 
@@ -155,13 +159,22 @@ By Nathaniel Virgo with [Supercollider](https://github.com/supercollider/superco
 
 ## Sleep Sort
 
-An elegant, if expensive, algorithm to sort a series of number. Will print the n number after n seconds
+An [elegant, if expensive, algorithm](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/sleepsort.py) to sort a series of number. Will print the n number after n seconds
+
+Original source: anonymous on 4chan
 
 
 # References
-* https://projecteuler.net/
+
 * http://www.stoimen.com/blog/
+* http://www.learnalgorithms.in/ can be interesting
+
+## Play
+
+* https://projecteuler.net/
 * https://www.codingame.com/
-* http://www.learnalgorithms.in/
+
+## Ruby
+
 * https://github.com/kanwei/algorithms/tree/master/lib/algorithms
 * https://github.com/sagivo/algorithms
