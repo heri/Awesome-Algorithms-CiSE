@@ -1,8 +1,6 @@
-# a python implementation of the Householder reflection approach for matrix computations
-
 import numpy as np
 
-# used for testing
+#used for testing
 from numpy.linalg import qr
 
 from helpers import norm, embed_matrix
@@ -31,25 +29,3 @@ def qr_fact_householder(matrixA):
 
     R = np.dot(Q, matrixA)
     return Q.T, R
-
-# if __name__ == '__main__':
-# np.set_printoptions(suppress=True)
-
-# a = np.array([
-#     [4, 1, -2, 2],
-#     [1, 2, 0, 1],
-#     [-2, 0, 3, -2],
-#     [2, 1, -2, -1]
-# ])
-# c = np.array([
-#     [-1., 0., -1.],
-#     [-1.23367806, 0.25907239, -1.],
-#     [-0.71892373, -0.23724483, -1.],
-#     [-1.87761058, 1.18289466, -1.],
-#     [-0.85812972, -0.13129385, -1.],
-#     [-1.42048733, 0.49859105, -1.],
-#     [-0.38289289, -0.36757717, -1.]])
-# q, r = qr_fact_householder(a)
-# aa, bb = qr(a)
-# print np.dot(aa, bb)
-# print np.dot(q, r)

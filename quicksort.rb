@@ -1,5 +1,3 @@
-# recursive sorting with high-speed high space complexity approach
-
 class Quicksort
 
   def quicksort(array)

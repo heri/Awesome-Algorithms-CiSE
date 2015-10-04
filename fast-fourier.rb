@@ -1,4 +1,3 @@
-# An implementation of the Discrete Fourier Transform.
 
 module FastFourier
 
