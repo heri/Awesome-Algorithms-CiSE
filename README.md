@@ -94,7 +94,20 @@ Original author: Tony Hoare of Elliott Brothers, Ltd., London
 
 Implementation case: maximize c.x with constraint A.x = b
 
-Original author: George Dantzig, at the RAND Corporation,
+Original author: George Dantzig, at the RAND Corporation
+
+## p5
+
+Graphics in 140 characters (view [p5tweets](http://funprogramming.org/p5tweets/) )
+
+```
+int i,w=900;void setup(){size(w,w);}void draw(){fill(0,4);stroke(255,87);bezier(++i%w,w-(i%w),i/.23%w,i*7%w,i/.17%w,i/.3%w,i*6%w,w/2);}
+```
+
+Output:
+
+![p5](http://funprogramming.org/p5tweets/large/32.jpg)
+
 
 # References
 * https://projecteuler.net/
