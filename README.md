@@ -52,7 +52,7 @@ rint v
 
 A python implementation of the Householder reflection approach for matrix computations
 
-Original author: Alston Householder of Oak Ridge National Laboratory 
+Original author: Alston Householder of Oak Ridge National Laboratory
 
 Input:
 ```
@@ -87,6 +87,14 @@ print np.dot(q, r)
 ## Quicksort
 
 recursive sorting with high-speed high space complexity approach
+
+Original author: Tony Hoare of Elliott Brothers, Ltd., London
+
+## Simplex
+
+Implementation case: maximize c.x with constraint A.x = b
+
+Original author: George Dantzig, at the RAND Corporation,
 
 # References
 * https://projecteuler.net/
