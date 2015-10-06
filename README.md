@@ -55,12 +55,6 @@ Input
 
 Original authors: John von Neumann, Stan Ulam, and Nick Metropolis, of the Los Alamos Scientific Laboratory
 
-## Fast Multipole algorithm
-
-A python implemention of the Fast Multipole algorithm.
-
-Original authors: Leslie Greengard and Vladimir Rokhlin of Yale University
-
 ## QR Algorithm
 
 [A python implemention](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/qr.py) of the QR algorithm. It turns once-formidable [eigenvalue problems](http://planetmath.org/eigenvalueproblem) into routine calculations.
@@ -133,15 +127,13 @@ tldr; maximize c.x with constraint A.x = b
 
 Original author: George Dantzig, at the RAND Corporation
 
-## Multipole
+## Fast Multipole Algorithm
 
 [The Fast Multipole method](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/multipole.py) reduces the complexity of matrix-vector multiplication involving a certain type of dense matrix which can arise out of many physical systems.
 
 Original author: Leslie Greengard and Vladimir Rokhlin of Yale University
 
-## Concise
-
-### p5
+## p5 Tweets : graphics in 140 chars
 
 Graphics in 140 characters (view [p5tweets](http://funprogramming.org/p5tweets/) )
 
@@ -153,15 +145,13 @@ Output:
 
 ![p5](http://funprogramming.org/p5tweets/large/32.jpg)
 
-### superCollider
+### superCollider : sound in 140 characters
 
 By Nathaniel Virgo with [Supercollider](https://github.com/supercollider/supercollider)
 
 ```
 {LocalOut.ar(a=CombN.ar(BPF.ar(LocalIn.ar(2)*7.5+Saw.ar([32,33],0.2),2**LFNoise0.kr(4/3,4)*300,0.1).distort,2,2,40));a}.play/
 ```
-
-## Art
 
 ## Sleep Sort
 
