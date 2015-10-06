@@ -133,6 +133,12 @@ tldr; maximize c.x with constraint A.x = b
 
 Original author: George Dantzig, at the RAND Corporation
 
+## Multipole
+
+[The Fast Multipole method](https://github.com/heri/Awesome-Algorithms-CiSE/blob/master/multipole.py) reduces the complexity of matrix-vector multiplication involving a certain type of dense matrix which can arise out of many physical systems.
+
+Original author: Leslie Greengard and Vladimir Rokhlin of Yale University
+
 ## Concise
 
 ### p5
@@ -167,15 +173,9 @@ Original source: anonymous on 4chan
 # References
 
 * http://www.stoimen.com/blog/
-* http://www.learnalgorithms.in/ can be interesting
-
-## Play
-
+* http://www.learnalgorithms.in/
 * https://projecteuler.net/
 * https://www.codingame.com/
-
-## Ruby
-
 * https://github.com/kanwei/algorithms/tree/master/lib/algorithms
 * https://github.com/sagivo/algorithms
 
